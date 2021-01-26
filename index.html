@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <h1>Kursy walut</h1>
+        <div class="wrapper">
+            <div class="currency">
+                <h2>Polska złotówka (1PLN) jest warta:</h2>
+                <ul id="currencyValue"></ul>
+            </div>
+            <div class="lastDayExchangeValue" id="lastDays">
+                <h2>Wybierz walutę i sprawdź jaki był jej kurs od 14.01 do 21.01</h2>
+                <select id="selectBox" onchange="changeValue()"></select>
+                <ul id="dayValue"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
